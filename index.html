@@ -102,13 +102,14 @@ $(document).ready(function(e) {
         str=str.replace("█","<br/>");
         return str;
     }
+    var bgmMusic = document.getElementById("bgmMusic");
+    bgmMusic.play();
 });
 </script>
 </head>
 
 <body>
-<audio src="def.mp3" autoplay="autoplay"></audio>
-
+<audio id="bgmMusic" src="./jscss/当我唱起这首歌.mp3" preload="auto" type="audio/mp3" autoplay=""  loop=''></audio>
 <center>
 <div align="left" class="content"><span id="txt"></span><span id="guang"></span>
 <span></span>
